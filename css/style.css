@@ -9,6 +9,10 @@
 # General
 --------------------------------------------------------------*/
 
+.row .name {
+  text-align: center;
+}
+
 body {
   background: #fff;
   color: #444;
@@ -614,7 +618,7 @@ h6 {
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 10px;
   top: calc(50% - 32px);
 }
 
@@ -625,7 +629,7 @@ h6 {
 }
 
 #services .title {
-  margin-left: 40px;
+  margin-left: 50px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -641,7 +645,7 @@ h6 {
 
 #services .description {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 50px;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -986,7 +990,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  color: #fff;  
 }
 
 #team .member span {
